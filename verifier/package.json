@@ -1,0 +1,15 @@
+{
+  "name": "verifier",
+  "version": "1.0.0",
+  "main": "verify_cli.js",
+  "license": "MIT",
+  "bin": {
+    "verify-proof": "./verify_cli.js"
+  },
+  "scripts": {
+    "lint": "node -c verify_cli.js"
+  },
+  "dependencies": {
+    "commander": "^14.0.2"
+  }
+}
